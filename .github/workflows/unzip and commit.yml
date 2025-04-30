@@ -18,7 +18,7 @@ jobs:
       - name: Unzip file
         run: |
           unzip -o your-file.zip -d .  # 将your-file.zip替换为实际的zip文件名
-          ls -la unzipped  # 查看解压后的文件
+          ls -la .  # 查看解压后的文件
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
