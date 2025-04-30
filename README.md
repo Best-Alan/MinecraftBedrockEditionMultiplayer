@@ -1,0 +1,2 @@
+# MinecraftBedrockEditionMultiplayer
+Minecraft基岩版联机大厅，基于好友联机api，使用张大树的api
